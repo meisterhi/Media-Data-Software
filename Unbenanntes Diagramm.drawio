@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T12:41:17.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.6" etag="gaJlghleDBs0lVa94QGx" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T15:27:08.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YPiRm4RO3RcYZ63tmF6s" version="21.6.6" type="github">
   <diagram name="Seite-1" id="skYrS67LyVMHkd5Q-b5e">
-    <mxGraphModel>
+    <mxGraphModel dx="806" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XmND1E7XT9ren-_TwMtx-2" value="Creater" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-3" value="Client" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XmND1E7XT9ren-_TwMtx-4" target="XmND1E7XT9ren-_TwMtx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-4" value="Inject DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XmND1E7XT9ren-_TwMtx-5" target="XmND1E7XT9ren-_TwMtx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-5" value="Inject" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-7" value="Main DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XmND1E7XT9ren-_TwMtx-9" value="&lt;h1&gt;Inject DB&lt;/h1&gt;&lt;div&gt;a Local DB for Shoots on Location&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="190" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
